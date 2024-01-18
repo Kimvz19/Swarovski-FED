@@ -1,0 +1,820 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-text: #111;
+	--color-background: #eee;
+	--font-size: 62, 50%;
+}
+
+
+
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+/*body */
+body {
+	margin: 0;
+}
+
+/*home page navigatie  */
+@media only screen and (max-width: 1449px),
+(min-width: 1450px) {
+	.home-page {
+		background-color: #f0eee4;
+		width: 100%;
+		margin: 0;
+	}
+
+	.home-page-logo {
+		display: flex;
+		justify-content: center;
+		padding-top: 0.5rem;
+
+	}
+
+	.styling-navbar {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: 1.5rem;
+
+	}
+
+	.home-page-nav {
+		list-style: none;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+	}
+
+	.home-page-nav a {
+		text-decoration: none;
+		color: black;
+		font-family: 'Martel sans', sans-serif;
+	}
+
+	.home-page-nav li {
+		width: auto;
+		font-size: 0.9rem;
+		margin-right: 20px;
+	}
+
+	.nav-bar-icons button {
+		border-color: transparent;
+	}
+
+	/*home page sale  */
+
+	.home-page-sale {
+		background-image: url("..//images/main/home-page-sale-size-1440.avif");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 100%;
+		margin: 0px;
+	}
+
+	.home-page-sale-inhoud {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		padding-left: 4rem;
+		padding-top: 7rem;
+		padding-bottom: 10rem;
+	}
+
+	.home-page-sale-inhoud h2,
+	h3 {
+		font-family: 'Hedvig Letters Serif', sans-serif;
+		font-weight: 50;
+		color: white;
+		letter-spacing: 0.125rem;
+		margin: 0;
+	}
+
+	.home-page-sale-inhoud h2 {
+		font-size: 2.1rem;
+	}
+
+	.home-page-sale-inhoud h3 {
+		font-size: 2.7rem;
+		max-width: 29rem;
+	}
+
+	.home-page-sale-inhoud p {
+		color: white;
+		font-family: 'Martel sans', sans-serif;
+		line-height: 1.3rem;
+	}
+
+
+	.home-page-sale-links {
+		display: flex;
+		flex-direction: column;
+		font-family: 'Martel sans', sans-serif;
+	}
+
+	.home-page-sale-links a {
+		text-decoration: none;
+		color: black;
+		font-size: 1.1rem;
+		background-color: white;
+		padding: 0.5rem;
+		padding-left: 6rem;
+		padding-right: 6rem;
+		margin: 0.5rem;
+	}
+
+	.home-page-sale-links button {
+		background-color: transparent;
+		color: white;
+		font-size: 1.1rem;
+		border-width: 0.15rem;
+		border-color: white;
+		padding-top: 0.6rem;
+		padding-bottom: 0.6rem;
+		margin: 0.5rem;
+	}
+
+	/*Ignite your night */
+	.Ignite-your-dreams {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+		background-color: #f0eee4;
+	}
+
+	.Ignite-your-dreams h2 {
+		font-size: 2.7rem;
+		font-family: 'Hedvig Letters Serif', sans-serif;
+		font-weight: 50;
+		letter-spacing: 0.125rem;
+
+	}
+
+	.Ignite-your-dreams p {
+		font-family: 'Martel sans', sans-serif;
+		max-width: 60rem;
+		text-align: center;
+		padding-bottom: 3rem;
+	}
+
+	/*valentine  */
+	.valentine {
+		background-image: url("..//images/main/valentine-biggest-size.avif");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: auto;
+		padding-top: 10rem;
+		padding-bottom: 10rem;
+		padding-left: 8rem;
+		height: 705px;
+	}
+
+	.valentine h2 {
+		margin: 0px;
+		font-size: 3.6rem;
+		font-weight: 50;
+		max-width: 25rem;
+		font-family: 'Hedvig Letters Serif', sans-serif;
+	}
+
+	.valentine p {
+		font-family: 'Martel sans', sans-serif;
+		font-weight: 900;
+		font-size: 1.4rem;
+		max-width: 28rem;
+	}
+
+	.valentine a {
+		text-decoration: none;
+		color: white;
+		background-color: black;
+		font-family: 'Martel sans', sans-serif;
+		padding: 0.5rem;
+		padding-left: 3rem;
+		padding-right: 3rem;
+		margin: 0.5rem;
+	}
+
+	/*love at first */
+	.love-at-first {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.love-at-first h2 {
+		font-family: 'Hedvig Letters Serif', sans-serif;
+		font-size: 2.5rem;
+		font-weight: 50;
+	}
+
+	.love-first-articles {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.love-first-1 {
+		max-width: 30rem;
+		margin: 3.3rem;
+	}
+
+	.love-first-1 img {
+		max-width: 30rem;
+	}
+
+	.love-first-1 h2 {
+		font-size: 1.5rem;
+		font-weight: 80;
+	}
+
+	.love-first-1 p {
+		font-family: 'Martel sans', sans-serif;
+		letter-spacing: 0.003rem;
+	}
+
+	.love-first-1 a {
+		text-decoration: underline;
+		text-underline-offset: 0.5rem;
+		color: black;
+		font-family: 'Martel sans', sans-serif;
+	}
+
+	/*video */
+	.video-article {
+		display: flex;
+		justify-content: flex-start;
+		height: 900px;
+	}
+
+	.beschrijving-video {
+		display: flex;
+		flex-direction: column;
+		margin: 3rem;
+		width: 33rem;
+		padding-top: 10rem;
+	}
+
+	.beschrijving-video h2 {
+		font-family: 'Hedvig Letters Serif', sans-serif;
+		font-size: 2rem;
+		font-weight: 50;
+	}
+
+	.beschrijving-video p {
+		font-family: 'Martel sans', sans-serif;
+		letter-spacing: 0.004rem;
+	}
+
+	.beschrijving-video a {
+		text-decoration: none;
+		color: white;
+		background-color: black;
+		font-family: 'Martel sans', sans-serif;
+		padding: 0.5rem;
+		margin: 0.5rem;
+		width: 15rem;
+		text-align: center;
+	}
+
+	/*Birthstones */
+	.birthstones {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: #f0eee4;
+		padding: 2rem;
+	}
+
+	.birthstones h2 {
+		font-family: 'Hedvig Letters Serif', sans-serif;
+		font-size: 2.2rem;
+		font-weight: 50;
+	}
+
+	.birthstones-options {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.birthstone-article {
+		margin: 0.5rem;
+		background-color: white;
+		padding: 4rem;
+		text-align: center;
+	}
+
+	.birthstone-article h3 {
+		color: black;
+		font-family: 'Martel sans', sans-serif;
+		letter-spacing: 0.004rem;
+		font-weight: bolder;
+		font-size: 0.8rem;
+	}
+
+	.birthstones-article a img {
+		width: 10rem;
+	}
+
+
+	.sieraad-rood img{
+		width: 13rem;
+	}
+
+	.birthstone-article img {
+		padding-bottom: 3rem;
+	}
+
+	.birthstone-article p {
+		font-family: 'Martel sans', sans-serif;
+		font-size: 0.8rem;
+		margin: 0;
+	}
+
+	.price p {
+		font-family: 'Martel sans', sans-serif;
+		font-size: 0.9rem;
+	}
+
+	.birthstone-colors p {
+		background-color: #f0eee4;
+		font-size: 0.7rem;
+		font-family: 'Martel sans', sans-serif;
+		margin: 0.5rem;
+		border-radius: 1rem;
+		margin-inline: 70px;
+	}
+
+	.birthstone-colors {
+		color: #5a5a5a;
+		text-align: center;
+	}
+
+
+     /*Categorie */
+	.categorie {
+		background-color: #f0eee4;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.categorie h2 {
+		font-family: 'Hedvig Letters Serif', sans-serif;
+		font-size: 2.5rem;
+		font-weight: 50;
+		padding-top: 7rem;
+		padding-bottom: 1rem;
+	}
+
+	.jewerly {
+		display: flex;
+		flex-direction: row;
+		padding-bottom: 5rem;
+	}
+
+	.jewerly-categorie {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 0.2rem;
+		background-color: #f8f7f1;
+	}
+
+	.jewerly-categorie a {
+		max-width: 53rem
+	}
+
+	.jewerly-categorie a img {
+		width: 21em;
+	}
+
+	.jewerly-categorie p {
+		margin: 0;
+		padding: 0.8rem;
+		font-family: 'Martel sans', sans-serif;
+		font-size: 1rem;
+	}
+
+    /*wereld van swarovski */
+	.world-of-swarovski {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background-color: #f0eee4;
+	}
+
+	.world-of-swarovski-2 {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.world-of-swarovski-2 h2{
+		font-family: 'Hedvig Letters Serif', sans-serif;
+		font-size: 2.5rem;
+		font-weight: 50;
+	}
+
+	.world-of-swarovski-2 p {
+		font-family: 'Martel sans', sans-serif;
+	}
+	.world-of-swarovski-2 a {
+		font-family: 'Martel sans', sans-serif;
+		text-decoration: none;
+		color: black;
+		background-color: transparent;
+	}
+
+
+	.world-of-swarovski-3{
+		display: flex;
+		flex-direction: row;
+	}
+
+	.world-article{
+		width: 33rem;
+		margin: 2rem;
+		padding: 1rem;
+	}
+
+	.world-article h3{
+		color: black;
+		font-family: 'Hedvig Letters Serif', sans-serif;
+		font-size: 1.5rem;
+		font-weight: 800;
+		padding-top: 1rem;
+	}
+
+	.world-article p{
+		font-family: 'Martel sans', sans-serif;
+		max-width: 33rem;
+	}
+
+	.world-article a{
+		font-family: 'Martel sans', sans-serif;
+		text-decoration: none;
+		color: black;
+		outline-color: red;
+	}
+
+	.link-to-world {
+		font-family: 'Martel sans', sans-serif;
+		text-decoration: none;
+		color: black;
+		outline: 1px;
+		outline-style: solid;
+		width: 15rem;
+		text-align: center;
+		padding-top: 0.2rem;
+		padding-bottom: 0.2rem;
+
+	}
+
+	.world-article a img{
+		width: 30rem;
+	}
+
+
+	.lidmaatschap{
+		display: flex;
+		flex-direction: row;
+		background-color: #fcc3cc ;
+		justify-content: end;
+	}
+
+	.lidmaatschap img{
+		width: 35rem;
+	}
+
+	.lidmaatschap-1{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		max-width: 38rem;
+	}
+
+	.lidmaatschap-1 p{
+		text-align: center;
+		font-family: 'Martel sans', sans-serif;
+		text-decoration: none;
+		letter-spacing: 0.004rem;
+		font-weight: 600;
+		font-size: 1rem;
+		color: black;
+	}
+
+	.lidmaatschap-1 h2{
+		color: black;
+		font-family: 'Hedvig Letters Serif', sans-serif;
+		font-size: 1.5rem;
+	}
+
+	.lidmaatschap-1 a{
+		color: black;
+	}
+
+	#extra{
+		color: white;
+		font-family: 'Martel sans', sans-serif;
+		text-decoration: none;
+		letter-spacing: 0.004rem;
+		background-color: black;
+		padding: 0.5rem;
+		margin: 0.5rem;
+		width: 15rem;
+		text-align: center;
+	}
+
+	.footer{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		margin: 2rem;
+	}
+
+	.footer-column{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.kopje a{
+		font-size: 0.9rem;
+		color: black;
+		text-decoration: none;
+		font-family: 'Martel sans', sans-serif;
+		font-weight: 900;
+	}
+
+	.other-kopjes{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.other-kopjes a{
+		color:rgb(112, 110, 106);
+		text-decoration: none;
+		font-family: 'Martel sans', sans-serif;
+		font-weight: 400;
+		font-size: 0.8rem;
+		padding: 0.52rem;
+	}
+
+}
+
+
+
+@media only screen and (max-width: 1449px),
+(min-width: 1450px) {
+
+	/* Home page decoratie */
+	.home-page-deco{
+	background-image: url("..//images/main/decoratie-homepage.avif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100%;
+	margin: 0px;
+	}
+
+	.home-page-deco-inhoud{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		padding: 4rem;
+		padding-top: 7rem;
+		padding-bottom: 10rem;
+	}
+
+	.home-page-deco-inhoud h1{
+		font-family: 'Hedvig Letters Serif', sans-serif;
+		font-weight: 500;
+		font-size: 2.7rem;
+		color: black;
+		letter-spacing: 0.125rem;
+		margin: 0;
+	}
+
+	.home-page-deco-inhoud h2{
+		font-family: 'Martel sans', sans-serif;
+		font-size: 1.3rem;
+		color: black;
+		letter-spacing: 0.05rem;
+		margin: 0;
+	}
+
+	.home-page-deco-inhoud a{
+		text-decoration: none;
+		font-family: 'Martel sans', sans-serif;
+		color: black;
+		font-size: 1rem;
+		background-color: white;
+		padding: 0.2rem;
+		padding-left: 3rem;
+		padding-right: 3rem;
+		margin-top: 3rem;
+	}
+
+	/* sectie woonaccesoires */
+	.inspirerende-woonaccesoires{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+		background-color: #f0eee4;
+	}
+
+	.inspirerende-woonaccesoires h2{
+		font-size: 2.7rem;
+		font-family: 'Hedvig Letters Serif', sans-serif;
+		font-weight: 25;
+		letter-spacing: 0.125rem;
+	}
+
+	.inspirerende-woonaccesoires p {
+		font-family: 'Martel sans', sans-serif;
+		max-width: 60rem;
+		text-align: center;
+		padding-bottom: 3rem;
+	}
+
+    /* sectie woonaccesoires */ 
+	.disney100{
+		background-image: url("..//images/main/disney100-collectie.avif");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: auto;
+		padding-top: 10rem;
+		padding-bottom: 10rem;
+		padding-left: 8rem;
+		height: 705px;
+	}
+
+	.disney100 h2{
+		margin: 0;
+		font-size: 3.0rem;
+		font-weight: 40;
+		max-width: 35rem;
+		font-family: 'Hedvig Letters Serif', sans-serif;
+	}
+
+	.disney100 h3{
+		font-family: 'Martel sans', sans-serif;
+		font-weight: 900;
+		font-size: 1.3rem;
+		max-width: 55rem;
+		color: black;
+	}
+
+	.disney100 h4{
+		font-family: 'Martel sans', sans-serif;
+		font-size: 0.7rem;
+		margin-bottom: 5rem;
+
+	}
+
+	.disney100 a{
+		text-decoration:none;
+		color:white ;
+		background-color: black;
+		font-family: 'Martel sans', sans-serif;
+		padding: 0.5rem;
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+
+	/* disney assortiment */
+	.disney-assortiment{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: #f0eee4;
+		padding: 2rem;
+	}
+
+	.disney-assortiment h2{
+		font-family: 'Hedvig Letters Serif', sans-serif;
+		font-size: 2.2rem;
+		font-weight: 50;
+	}
+
+	.disney-assortiment-options{
+		display: flex;
+		flex-direction: row;
+	}
+
+	.disney-assort{
+		margin: 0.5rem;
+		background-color: white;
+		padding: 4rem;
+		text-align: center;
+	}
+
+	.disney-assort h3{
+		color: black;
+		font-family: 'Martel sans', sans-serif;
+		letter-spacing: 0.004rem;
+		font-weight: bolder;
+		font-size: 0.8rem;
+	}
+
+	.disney-assort a img{
+		width: 12rem;
+	}
+
+	/* video Marvel */
+	.video-marvel video{
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.favorieten{
+		display: flex;
+		flex-direction: row;
+	}
+
+	.Rosenthal{
+		display: flex;
+		flex-direction: column;
+		background-image: url("..//images/main/rosenthal.avif");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: auto;
+		margin: 0;
+	}
+	
+	.crystal-society{
+		display: flex;
+		flex-direction: row;
+	}
+
+	.de-swarovski{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.kristal-decoraties{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background-color: #f0eee4;
+		padding-bottom: 5rem;
+	}
+
+	.kristal-decoraties img{
+		width: 2rem;
+	}
+
+	.kristal-decoraties h2{
+		font-family: 'Martel sans', sans-serif;
+		font-size: 1.2rem;
+		letter-spacing: 0.004rem;
+		font-weight: 100;
+	}
+
+	.kristal-decoraties p{
+		font-family: 'Martel sans', sans-serif;
+		text-align: center;
+		max-width: 23rem;
+		color: black;
+		margin: 0;
+		line-height: 1.5rem;
+	}
+
+	.kristal-decoraties a{
+		color: black;
+	}
+
+	
+
+
+}
+
+
+
+
