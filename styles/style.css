@@ -226,21 +226,12 @@ body {
 /*home page sale  */
 
 .home-page-sale {
-	background-image: url("..//images/main/background-home-page-1440-470.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 100%;
 	margin: 0px;
 }
 
-.home-page-sale-inhoud {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	padding-left: 4rem;
-	padding-top: 7rem;
-	padding-bottom: 10rem;
-}
 
 .home-page-sale-inhoud h2,
 h3 {
@@ -251,25 +242,10 @@ h3 {
 	margin: 0;
 }
 
-.home-page-sale-inhoud h2 {
-	font-size: 2.1rem;
-}
-
-.home-page-sale-inhoud h3 {
-	font-size: 2.7rem;
-	max-width: 29rem;
-}
-
 .home-page-sale-inhoud p {
 	color: white;
 	font-family: 'Martel sans', sans-serif;
 	line-height: 1.3rem;
-}
-
-.home-page-sale-links {
-	display: flex;
-	flex-direction: row;
-	font-family: 'Martel sans', sans-serif;
 }
 
 .home-page-sale-links a {
@@ -294,16 +270,153 @@ h3 {
 }
 
 /*Styling voor max-width 759 pixels */
-@media only screen and (max-width: 759px) {}
+@media only screen and (max-width: 759px) {
+	.home-page-sale {
+		background-image: url("..//images/main/overzichtspage/home-page-2277x2850.avif");
+	}
+
+	.home-page-sale-inhoud {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding-left: 4rem;
+		padding-top: 19rem;
+		padding-bottom: 5rem;
+		max-width: 35rem;
+	}
+
+	.home-page-sale-inhoud h2 {
+		font-size: 1.5rem;
+		text-align: center
+	}
+
+	.home-page-sale-inhoud h3 {
+		font-size: 1.8rem;
+		max-width: 29rem;
+		text-align: center;
+	}
+
+	.home-page-sale-inhoud p {
+		text-align: center;
+		max-width: 30rem;
+	}
+
+	.home-page-sale-links {
+		display: flex;
+		flex-direction: column;
+		font-family: 'Martel sans', sans-serif;
+	}
+}
 
 /*Styling voor max-width 1024 pixels */
-@media only screen and (min-width:760px) and (max-width: 1024px) {}
+@media only screen and (min-width:760px) and (max-width: 1024px) {
+	.home-page-sale {
+		background-image: url("..//images/main/overzichtspage/home-page-5760-2640.avif");
+	}
+
+	.home-page-sale-inhoud {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding-left: 4rem;
+		padding-top: 19rem;
+		padding-bottom: 5rem;
+		max-width: 35rem;
+	}
+
+	.home-page-sale-inhoud h2 {
+		font-size: 1.5rem;
+		text-align: center
+	}
+
+	.home-page-sale-inhoud h3 {
+		font-size: 1.8rem;
+		max-width: 29rem;
+		text-align: center;
+	}
+
+	.home-page-sale-inhoud h3 {
+		font-size: 1.8rem;
+		max-width: 29rem;
+		text-align: center;
+	}
+
+	.home-page-sale-links {
+		display: flex;
+		flex-direction: column;
+		font-family: 'Martel sans', sans-serif;
+	}
+}
+
+
 
 /*Styling voor max-width 1449 pixels */
-@media only screen and (min-width:1025px) and (max-width: 1449px) {}
+@media only screen and (min-width:1025px) and (max-width: 1449px) {
+	.home-page-sale {
+		background-image: url("..//images/main/overzichtspage/home-page-5760-2640.avif");
+	}
+
+	.home-page-sale-inhoud p {
+		max-width: 21rem;
+	}
+
+	.home-page-sale-inhoud {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		padding-left: 4rem;
+		padding-top: 7rem;
+		padding-bottom: 10rem;
+	}
+
+	.home-page-sale-inhoud h2 {
+		font-size: 2.1rem;
+	}
+
+	.home-page-sale-inhoud h3 {
+		font-size: 2.7rem;
+		max-width: 29rem;
+	}
+
+	.home-page-sale-links {
+		display: flex;
+		flex-direction: row;
+		font-family: 'Martel sans', sans-serif;
+	}
+}
 
 /*Styling voor min-width 1450 pixels */
-@media only screen and (min-width: 1450px) {}
+@media only screen and (min-width: 1450px) {
+	.home-page-sale {
+		background-image: url("..//images/main/background-home-page-1440-470.png");
+	}
+
+	.home-page-sale-inhoud {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		padding-left: 4rem;
+		padding-top: 7rem;
+		padding-bottom: 10rem;
+	}
+
+	.home-page-sale-inhoud h2 {
+		font-size: 2.1rem;
+	}
+
+	.home-page-sale-inhoud h3 {
+		font-size: 2.7rem;
+		max-width: 29rem;
+	}
+
+	.home-page-sale-links {
+		display: flex;
+		flex-direction: row;
+		font-family: 'Martel sans', sans-serif;
+	}
+}
 
 
 
@@ -1259,12 +1372,25 @@ h3 {
 	font-family: 'Martel sans', sans-serif;
 	color: black;
 	font-size: 1rem;
-	background-color: white;
 	padding: 0.2rem;
 	padding-left: 3rem;
 	padding-right: 3rem;
 }
 
+
+#micro-interaction-1{
+background-color: white;
+cursor:pointer;
+transition:.5s;
+}
+
+#micro-interaction-1:hover{
+	background-color:transparent;
+	outline: 1px;
+	  outline-style: solid;
+	outline-color: white;
+  }
+ 
 /*Styling voor max-width 759 pixels */
 @media only screen and (max-width: 759px) {
 	.home-page-deco {
@@ -1496,13 +1622,26 @@ h3 {
 .disney100 a {
 	text-decoration: none;
 	color: white;
-	background-color: black;
 	font-family: 'Martel sans', sans-serif;
 	padding: 0.5rem;
 	padding-left: 2rem;
 	padding-right: 2rem;
 	width: 16rem;
 }
+
+#micro-interaction-2{
+	background-color: black;
+	cursor:pointer;
+	transition:.5s;
+	}
+	
+	#micro-interaction-2:hover{
+		background-color:transparent;
+		outline: 1px;
+		  outline-style: solid;
+		outline-color: black;
+		color: black;
+	  }
 
 
 /*Styling voor max-width 759 pixels */
