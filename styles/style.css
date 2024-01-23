@@ -38,63 +38,190 @@ body {
 /**********************8*******/
 .home-page {
 	background-color: #f0eee4;
-	width: 100%;
 	margin: 0;
-}
-
-.home-page-logo {
-	display: flex;
-	justify-content: center;
-	padding-top: 0.5rem;
-
-}
-
-.styling-navbar {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-top: 1.5rem;
-
-}
-
-.home-page-nav {
-	list-style: none;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-
-.home-page-nav a {
-	text-decoration: none;
-	color: black;
-	font-family: 'Martel sans', sans-serif;
-	padding-left: 4rem;
-}
-
-.home-page-nav li {
-	width: auto;
-	font-size: 0.9rem;
-	margin-right: 20px;
 }
 
 .nav-bar-icons button {
 	border-color: transparent;
 	background-color: #f0eee4;
-	padding: 2rem;
 }
 
 
 /*Styling voor max-width 759 pixels */
-@media only screen and (max-width: 759px) {}
+@media only screen and (max-width: 759px) {
+	.home-page-nav li a{
+		display: none;
+		text-decoration: none;
+	}
+
+	.home-page-nav li{
+		display: none;
+	}
+
+	.home-page-logo {
+		display: flex;
+		justify-content: center;
+	}
+
+	.home-page-logo img {
+		max-width: 10rem;
+	}
+
+	.home-page{
+		display: flex;
+		flex-direction: row;
+		align-items:center;
+		justify-content: end;
+		height: 5rem;
+		padding: 1rem;
+		width: 100% ;
+		position: fixed;
+	}
+	
+	.home-page-nav{
+		justify-content: space-evenly;
+	}
+
+	.nav-bar-icons button {
+		padding: 1rem;
+		margin-left: 5rem;
+	}
+
+	.nav-bar-icons button {
+	margin-left: 13rem;
+	}
+
+
+}
 
 /*Styling voor max-width 1024 pixels */
-@media only screen and (min-width:760px) and (max-width: 1024px) {}
+@media only screen and (min-width:760px) and (max-width: 1024px) {
+	.home-page-nav li a{
+		display: none;
+		text-decoration: none;
+	}
+
+	.home-page-nav li{
+		display: none;
+	}
+
+	.home-page-logo {
+		display: flex;
+		justify-content: center;
+	}
+
+	.home-page-logo img {
+		max-width: 10rem;
+	}
+
+	.home-page{
+		display: flex;
+		flex-direction: row;
+		align-items:center;
+		justify-content: end;
+		height: 5rem;
+		padding: 1rem;
+	}
+	
+	.home-page-nav{
+		justify-content: space-evenly;
+	}
+
+	.nav-bar-icons button {
+		padding: 1rem;
+		margin-left: 5rem;
+	}
+
+	.nav-bar-icons button {
+	margin-left: 19rem;
+	}
+
+
+}
 
 /*Styling voor max-width 1449 pixels */
-@media only screen and (min-width:1025px) and (max-width: 1449px) {}
+@media only screen and (min-width:1025px) and (max-width: 1449px) {
+	.home-page-logo {
+		display: flex;
+		justify-content: center;
+		padding-top: 0.5rem;
+	}
+
+	.styling-navbar {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.home-page-nav {
+		list-style: none;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.nav-bar-icons button {
+		padding: 2rem;
+	}
+
+
+	.home-page-nav a {
+		text-decoration: none;
+		color: black;
+		font-family: 'Martel sans', sans-serif;
+		padding-left: 4rem;
+	}
+
+	.home-page-nav li {
+		width: 100%;
+		font-size: 0.9rem;
+	}
+
+	#nav-link {
+		display: none;
+	}
+}
 
 /*Styling voor min-width 1450 pixels */
-@media only screen and (min-width: 1450px) {}
+@media only screen and (min-width: 1450px) {
+	.home-page-logo {
+		display: flex;
+		justify-content: center;
+		padding-top: 0.5rem;
+	}
+
+	.styling-navbar {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+	}
+
+	.home-page-nav {
+		list-style: none;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+
+	.home-page-nav a {
+		text-decoration: none;
+		color: black;
+		font-family: 'Martel sans', sans-serif;
+		padding-left: 4rem;
+	}
+
+	.home-page-nav li {
+		width: auto;
+		font-size: 0.9rem;
+		margin-right: 17px;
+	}
+
+	.nav-bar-icons button {
+		padding: 2rem;
+	}
+}
 
 /*home page sale  */
 
@@ -934,19 +1061,6 @@ h3 {
 	width: 30rem;
 }
 
-/*Styling voor max-width 759 pixels */
-@media only screen and (max-width: 759px) {}
-
-/*Styling voor max-width 1024 pixels */
-@media only screen and (min-width:760px) and (max-width: 1024px) {}
-
-/*Styling voor max-width 1449 pixels */
-@media only screen and (min-width:1025px) and (max-width: 1449px) {}
-
-/*Styling voor min-width 1450 pixels */
-@media only screen and (min-width: 1450px) {}
-
-
 
 
 
@@ -989,16 +1103,30 @@ h3 {
 }
 
 /*Styling voor max-width 759 pixels */
-@media only screen and (max-width: 759px) {}
+@media only screen and (max-width: 759px) {
+	.lidmaatschap img{
+		display: none;
+	}
+
+	.lidmaatschap-1{
+		justify-content: center;
+		width: 100%;
+		margin-right: 1.5rem;
+	}
+}
 
 /*Styling voor max-width 1024 pixels */
-@media only screen and (min-width:760px) and (max-width: 1024px) {}
+@media only screen and (min-width:760px) and (max-width: 1024px) {
+	.lidmaatschap img{
+		display: none;
+	}
 
-/*Styling voor max-width 1449 pixels */
-@media only screen and (min-width:1025px) and (max-width: 1449px) {}
-
-/*Styling voor min-width 1450 pixels */
-@media only screen and (min-width: 1450px) {}
+	.lidmaatschap-1{
+		justify-content: center;
+		width: 100%;
+		margin-right: 5rem;
+	}
+}
 
 
 
@@ -1014,12 +1142,6 @@ h3 {
 	text-align: center;
 }
 
-.footer {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	margin: 2rem;
-}
 
 .footer-column {
 	display: flex;
@@ -1049,16 +1171,53 @@ h3 {
 }
 
 /*Styling voor max-width 759 pixels */
-@media only screen and (max-width: 759px) {}
+@media only screen and (max-width: 759px) {
+	.other-kopjes{
+		display: none;
+	}
+
+	.footer {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		margin: 1rem;
+		max-width: 100%;
+	}
+}
 
 /*Styling voor max-width 1024 pixels */
-@media only screen and (min-width:760px) and (max-width: 1024px) {}
+@media only screen and (min-width:760px) and (max-width: 1024px) {
+	.other-kopjes{
+		display: none;
+	}
+
+	.footer {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		margin: 2rem;
+	}
+}
 
 /*Styling voor max-width 1449 pixels */
-@media only screen and (min-width:1025px) and (max-width: 1449px) {}
+@media only screen and (min-width:1025px) and (max-width: 1449px) {
+	.footer {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		margin: 2rem;
+	}
+}
 
 /*Styling voor min-width 1450 pixels */
-@media only screen and (min-width: 1450px) {}
+@media only screen and (min-width: 1450px) {
+	.footer {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		margin: 2rem;
+	}
+}
 
 
 
