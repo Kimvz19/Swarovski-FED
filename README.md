@@ -69,8 +69,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen Vóór de herkansing
-  <img src="readme-images/wcga-checklist2.png" width="375px" alt="WCAG checklist 1">
-  <img src="readme-images/Wcag-checklist1.png" width="375px" alt="WCAG checklist 2">
+  <img src="readme-images/wcga-checklist2.png" width="375px" alt="WCAG checklist 2">
+  <img src="readme-images/Wcag-checklist1.png" width="375px" alt="WCAG checklist 1">
     
   Lijst met je bevindingen die in de test naar voren kwamen:
   - Veel foto's worden niet benoemd als foto's maar als links, zie voorbeeld; 
@@ -78,8 +78,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Bij foto's worden er geen beschrijvingen gezet. De foto's worden ook niet gezien als foto's maar als links.
   - Sommige stukken tekst worden niet beschreven als paragrafen,p, maar als #text
   
-  <img src="readme-images/opmerkingen-in-code.png" width="375px" alt="toegankelijkheidstekst uitkomsten">
-
 
     ### Bevindingen herkansing
     Voor mijn herkansing gebruik ik dezelfde website alleen verschillende slides van de website. Aangezien de thema's zijn veranderd. Ondanks ik ben verandert van pagina's komen de bevindingen van de toegankelijkheidstest wel overeen omdat de fouten die zij maken voor het opstellen van de website overal hetzelfde zijn. Dus zijn de bevindingen nog steeds geldig.
@@ -89,7 +87,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Breakdownschets (week 1)
 
 <details>
-  <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
+
   <img src="readme-images/1.png" width="375px" alt="breakdown + responsive schermen">
     <img src="readme-images/2.png" width="375px" alt="breakdown + responsive schermen">
       <img src="readme-images/3.png" width="375px" alt="breakdown + responsive schermen">
@@ -104,7 +102,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
                       <img src="readme-images/12.png" width="375px" alt="breakdown + responsive schermen">
                         <img src="readme-images/13.png" width="375px" alt="breakdown + responsive schermen">
                           <img src="readme-images/14.png" width="375px" alt="breakdown + responsive schermen">
-                            <img src="readme-images15/.png" width="375px" alt="breakdown + responsive schermen">
+                            <img src="readme-images/15.png" width="375px" alt="breakdown + responsive schermen">
                               <img src="readme-images/16.png" width="375px" alt="breakdown + responsive schermen">
                                 <img src="readme-images/17.png" width="375px" alt="breakdown + responsive schermen">
 </details>
@@ -189,8 +187,6 @@ Wel ben ik erg trots op hoe ik dit proces heb aangepakt. Het was geen makkelijke
 ## Toegankelijkheidstest 2/2 (week 4)
 
 <details>
-  <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
-  
     <img src="readme-images/wcag2.1.png" width="375px" alt="breakdown + responsive schermen">
         <img src="readme-images/wcag2.2.png" width="375px" alt="breakdown + responsive schermen">
             <img src="readme-images/wcag2.3.png" width="375px" alt="breakdown + responsive schermen">
@@ -245,18 +241,40 @@ Wel ben ik erg trots op hoe ik dit proces heb aangepakt. Het was geen makkelijke
   
   
   ik heb geleerd hoe ik een video als achtergrond kan plaatsen
+  <img src="readme-images/video-gelukt.png" width="375px" alt="overzichts pagina's">
+
   ik hbe geleerd hoe ik dingen responsive maak
+<img src="readme-images/responsive-gelukt.png" width="375px" alt="overzichts pagina's">
+
   ik heb geleerd hoe ik een micro interactie maak
+  <img src="readme-images/micro-interaction-gelukt.png" width="375px" alt="overzichts pagina's">
+
   ik ben beter geworden in de styling van css
   ik begrijp de indelingen in html beter
 
-  <img src="readme-images/" width="375px" alt="top">
-
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  
+  Ik ben er niet goed bij stilgestaan dat swarovski toch een best lastige website is om responsive te maken omdat ze het hebben ingedeeld in 4 groottes.
+  Hierdoor liep ik soms een beetje vast 
+  
+  wat niet is gelukt
 
-  <img src="readme-images/i" width="375px" alt="bummer">
+1) navigatie helemaal responsive > het is mij gelukt om het wel responsive te maken alleen ik kreeg het hamburger menu er niet in zonder dat de list te zien was en dit kreeg ik niet weggewerkt. 
+  <img src="readme-images/navigatie-nietgelukt.png" width="375px" alt="overzichts pagina's">
+
+
+2) footer > de tekst klapt uiteindelijk in alleen dit was nog iets te ver gezocht voor mij
+  <img src="readme-images/vergelijking1.png" width="375px" alt="overzichts pagina's">
+  
+  
+3) bij sommige artikelen kreeg ik het niet 100% perfect, maar ik heb mijn best gedaan :)
+  <img src="readme-images/niet-gelukt.png" width="375px" alt="overzichts pagina's">
+
+
+  
+  
+
 </details>
 
 
@@ -272,8 +290,8 @@ Wel ben ik erg trots op hoe ik dit proces heb aangepakt. Het was geen makkelijke
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. https://css-tricks.com/fluid-width-video/
+  2. https://www.sitepoint.com/button-micro-interactions/#:~:text=Micro%2Dinteractions%20are%20small%20interactions,can%20improve%20their%20overall%20experience.
+  3. https://www.sitepoint.com/button-micro-interactions/
 
 </details>
