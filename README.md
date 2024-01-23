@@ -69,8 +69,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen Vóór de herkansing
-  <img src="readme-images/wcga-checklist2.png" width="375px" alt="WCAG checklist 2">
   <img src="readme-images/Wcag-checklist1.png" width="375px" alt="WCAG checklist 1">
+  > de hele lijst van bevindingen staat bij toegankelijkheidstest 2! :)
     
   Lijst met je bevindingen die in de test naar voren kwamen:
   - Veel foto's worden niet benoemd als foto's maar als links, zie voorbeeld; 
