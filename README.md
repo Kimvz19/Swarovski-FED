@@ -190,10 +190,16 @@ Wel ben ik erg trots op hoe ik dit proces heb aangepakt. Het was geen makkelijke
 
 <details>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
+  
+    <img src="readme-images/wcag2.1.png" width="375px" alt="breakdown + responsive schermen">
+        <img src="readme-images/wcag2.2.png" width="375px" alt="breakdown + responsive schermen">
+            <img src="readme-images/wcag2.3.png" width="375px" alt="breakdown + responsive schermen">
+                <img src="readme-images/wcag2.4.png" width="375px" alt="breakdown + responsive schermen">
+                    <img src="readme-images/wcag2.5.png" width="375px" alt="breakdown + responsive schermen">
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
-
+  Er zijn veel dingen verbeterd! Ik heb de foto's beschrijvingen gegeven. Ik heb geod gebruik gemaakt van de kopjes. Ik heb rekening gehouden met dat mensen videos willen stoppen, dus dat is mogelijk. Ik heb gebruik gemaakt van lists. Ik was vorige keer bij de toegankelijkheidstest helemaal niet ver, dus mijn test was toen alleen maar nee. Gelukkig is dat nu veranderd :)
 </details>
 
 
@@ -209,8 +215,16 @@ Wel ben ik erg trots op hoe ik dit proces heb aangepakt. Het was geen makkelijke
   Ik liep aan het einde tegen heel wat dingen aan:
   1) Ik heb bepaalde secties met daarin artikelen, maar voor de responsive deisgn worden deze artikelen kleiner naarmate je het scherm kleiner maakt. Voor de derde grootte van het scherm verandert de grote van het responsive design niet meer. Ik weet ook niet hoe ik dit moet oplossen.
   2) Ik had erg veel moeite met tekst over een video heenkrijgen. Dit is mij uiteindelijk gelukt toen ik gebruik ging maken van z-index. Met z-index kun je de items naar voren selecteren of naar achteren. Ik heb dit op deze manier opgelost.
+  
+  
   3) Video van marvel bij disney op de decoratie pagina was heel lastig om goed te plaatsen in de website. Het filmpje is erg groot en niet goed geschaald. Hierdoor is het een uitdaging om de width 100% te maken maar dat de hoogte niet ook 100% is. Ik heb hier veel mee lopen struggelen en uiteindelijk is het mij gelukt om in de video tag > controls height , neer te zetten. Wel is daardoor een deel van de video ingezoomed. 
+  
+  Dit is uiteindelijk wel opgelost 
+  
+  
   4) De footer verandert als het scherm kleiner wordt. Dit moet ik nog gaan oplossen 
+  
+      <img src="readme-images/vergelijking1.png" width="375px" alt="breakdown + responsive schermen">
 
 </details>
 
@@ -222,11 +236,19 @@ Wel ben ik erg trots op hoe ik dit proces heb aangepakt. Het was geen makkelijke
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+      <img src="readme-images/decoratie-overview" width="375px" alt="decoratie pagina's">
+            <img src="readme-images/overzichtspagina-overview.png" width="375px" alt="overzichts pagina's">
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
+  
+  
+  ik heb geleerd hoe ik een video als achtergrond kan plaatsen
+  ik hbe geleerd hoe ik dingen responsive maak
+  ik heb geleerd hoe ik een micro interactie maak
+  ik ben beter geworden in de styling van css
+  ik begrijp de indelingen in html beter
 
   <img src="readme-images/" width="375px" alt="top">
 
@@ -234,7 +256,7 @@ Wel ben ik erg trots op hoe ik dit proces heb aangepakt. Het was geen makkelijke
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/i" width="375px" alt="bummer">
 </details>
 
 
